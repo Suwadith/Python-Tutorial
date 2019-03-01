@@ -1,0 +1,11 @@
+event = 'Musical Night'
+print(len(event))
+print(event.upper())
+print(event.lower())
+print(event.find('M'))
+print(event.find('P'))
+print(event.find('Night'))
+print(event.replace('Night', 'Day'))
+print('Musical' in event)
+print('musical' in event)
+print(event.title())
